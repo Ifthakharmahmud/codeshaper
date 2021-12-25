@@ -33,6 +33,7 @@
     transition: 0.5s;
 }
 
+
 .main-menu ul li a:hover{
     opacity: 0.5;
 }
@@ -113,3 +114,80 @@
     line-height: 2;
 }
 
+
+
+/* Header Top Responsive CSS  */
+
+@media only screen and (max-width: 1560px){
+    .header-top{
+        grid-template-columns: 1fr 2fr 1.4fr 0.6fr;
+        
+    }
+    .main-menu ul li a{
+        font-size:16px;
+    }
+    .social-icons ul li a{
+        font-size:20px;
+    }
+    .header-contact-info{
+        font-size:16px;
+    }
+
+    .logo{
+        padding: 20px 0;
+    }
+
+
+
+    .search-btn{
+        padding: 20px;
+    }
+    .social-icons ul{
+        margin: none !important;
+    }
+ 
+
+    .search-btn a{
+        font-size:20px;
+    }
+}
+
+@media only screen and (max-width: 1360px){
+    .header-top{
+        grid-template-columns: 1fr;
+        border:none;
+    }
+
+    .logo{
+        border: none;
+    }
+
+    .icon-search-container .icons{
+        border: none;
+    }
+    .search-btn{
+        border: none;
+    }
+
+    .icon-search-container{
+        justify-content: center;
+    }
+
+    .search-btn{
+        padding: 30px;
+    }
+    .search-btn a {
+        font-size:30px
+    }
+    .social-icons ul li a{
+        font-size:30px;
+    }
+
+    .header-contact-info{
+        text-align: center;
+    }
+
+
+
+
+}

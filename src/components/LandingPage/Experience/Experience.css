@@ -1,0 +1,67 @@
+/* experience css   */
+.experience{
+    padding: 60px 0;
+    background: #0F0D1D;
+}
+
+.section-title h1 {
+    font: normal normal bold 50px/60px Jost;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.section-title p {
+    font: normal normal bold 18px/26px Jost;
+    letter-spacing: 0.14px;
+    color: #726F84;
+    text-align: center;
+}
+
+.section-container {
+    width: 80%;
+    margin: 60px auto 80px auto;
+}
+
+.experience-boxs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.single-exp-box {
+    background: #000000;
+    padding: 60px 40px 30px 60px;
+}
+
+.single-exp-box h4 {
+    font: normal normal 600 24px/34px Jost;
+    letter-spacing: -0.05px;
+    color: #FFFFFF;
+    width: 200px;
+}
+.box-bottom-content a {
+    font: normal normal 600 12px/34px Jost;
+    letter-spacing: -0.02px;
+    color: #8F8DA0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.box-bottom-content a span {
+    text-decoration: underline;
+}
+
+.box-bottom-content svg {
+    color: #3C72FC;
+    font-size: 110px;
+}
+
+.box-bottom-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}

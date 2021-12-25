@@ -28,6 +28,7 @@
     font-size: 80px;
     line-height:1.2;
     margin-bottom: 40px;
+    width: 530px;
 }
 
 a.custom-btn {
@@ -40,4 +41,30 @@ a.custom-btn {
     padding: 20px;
     border-radius: 1px;
     font-size: 18px;
+}
+
+/* Header Content Responsive CSS   */
+@media only screen and (max-width: 1360px){
+    .header-content{
+        padding: 0 0 0 0;
+    }
+
+    .header-content h6{
+        margin: 20px auto;
+    }
+
+    .header-content h1{
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .custom-btn{
+        margin: auto;
+    }
+
+    .header-content div{
+        padding-bottom: 50px;
+    }
+
 }

@@ -32,6 +32,7 @@ const HeaderTop = () => {
                             <li><a href="#">CASE SHOP</a></li>
                             <li><a href="#">BLOG</a></li>
                             <li><a href="#">CONTENT</a></li>
+                            
                         </ul>
                     </nav>
                 </div>
