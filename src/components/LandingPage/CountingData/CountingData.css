@@ -1,0 +1,62 @@
+/* CountingData CSS  */
+.counting-data{
+    background: #07122DFA;
+    padding: 80px 0 170px 0;
+}
+.counting-data-wrapper {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.single-data-box {
+    text-align: center;
+    color: #fff;
+    border-right: 1px solid #707070B3;
+}
+
+.single-data-box:last-child {
+    border-right: none;
+}
+
+.data-icon {
+    width: 110px;
+    height: 110px;
+    background: #06050C;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-data-box h2 {
+    font: normal normal bold 40px/22px Jost;
+    letter-spacing: -0.01px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.single-data-box p {
+    font-size: 12px;
+}
+
+
+/* CountingData Responsive CSS  */
+
+@media only screen and (max-width: 1360px){
+    .counting-data-wrapper {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .single-data-box {
+        border-right: none
+    }
+}
+
+@media only screen and (max-width: 668px){
+    .counting-data-wrapper {
+        grid-template-columns: 1fr;
+    }
+}

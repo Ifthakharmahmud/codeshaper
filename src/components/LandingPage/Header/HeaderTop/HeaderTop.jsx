@@ -40,7 +40,7 @@ const HeaderTop = () => {
                             
                         </ul>
                     </nav>
-                    <button onClick={ () => setShowLinks(!showLinks)  }  class="res-nav">MENU <AiOutlineMenu /> </button>
+                    <button onClick={ () => setShowLinks(!showLinks)  }  className="res-nav">MENU <AiOutlineMenu /> </button>
                 </div>
 
                 {/* Social Icons & Search Button */}

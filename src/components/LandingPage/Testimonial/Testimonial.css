@@ -1,0 +1,132 @@
+/* Testimonial CSS   */
+.testimonial{
+    padding: 90px 0;
+    background: #F2F4F8;
+}
+.testimonial-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.testimonial-text h2 {
+    font: normal normal bold 65px/75px Jost;
+    letter-spacing: -0.02px;
+    color: #0F0D1D;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.testimonial-text p {
+    font-size: 18px;
+    letter-spacing: -0.01px;
+    color: #726F84;
+}
+
+.left-right-arrow {
+    display: flex;
+    margin-top: 50px;
+}
+
+.left-right-arrow div {
+    width: 65px;
+    height: 65px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.left-right-arrow div:last-child{
+    margin-left: 20px;
+}
+
+.testimonial-card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 60px #0000001F;
+    padding: 45px 45px 0 34px;
+    position: relative;
+}
+
+.testimonial-card p {
+    font-size: 17px;
+    letter-spacing: -0.01px;
+    color: #726F84;
+}
+
+.card-bottom .user h5 {
+    font: normal normal 600 16px/26px Jost;
+    letter-spacing: -0.01px;
+    color: #3C72FC;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.card-bottom .user p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.card-bottom {
+    display: flex;
+    margin-top: -20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial-icon svg {
+    font-size: 135px;
+    color: #F2F4F8;
+}
+img.user-img {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    bottom: -40px;
+}
+
+/* Testimonial Responsive CSS  */
+
+@media only screen and (max-width: 1600px){
+    .testimonial-text h2{
+        font-size:50px ;
+    }
+    .testimonial-wrapper{
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 1500px){
+    .testimonial-card p{
+        font-size:15px ;
+    }
+    .user {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1360px){
+    .testimonial-wrapper{
+        grid-template-columns:1fr;
+    }
+
+    .testimonial-card{
+        margin-top: 30px;
+    }
+    .testimonial-text h2{
+        font-size: 30px;
+    }
+    .left-right-arrow{
+        margin-top: 10px;
+    }
+}
