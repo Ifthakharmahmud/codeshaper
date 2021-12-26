@@ -1,13 +1,136 @@
 /* Footer CSS  */
+footer{
+    padding: 120px 0 60px 0;
+    background: url("./../../../img/footer_bg.png");
+    background-position: center center;
+    background-size: cover;
+}
 
+/* Footer Widgets  */
 
+.footer-widgets {
+    width: 80%;
+    margin: 0 auto;
+    color: #8F8DA0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+.links-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+.links-sections ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
+.links-sections li {
+    margin-top: 20px;
+}
 
+.links-sections li:first-child {
+    margin-top: 0;
+}
+.footer-widgets {
+    width: 80%;
+    margin: 0 auto;
+    color: #8F8DA0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+.links-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+.links-sections ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.links-sections li {
+    margin-top: 20px;
+}
+
+.links-sections li:first-child {
+    margin-top: 0;
+}
+
+p.logo-section-pera {
+    padding: 24px 0;
+    border-bottom: 1px solid #FFFFFF24;
+    margin-right: 26px;
+    line-height: 2;
+}
+
+.widget-contect {
+    margin-top: 30px;
+}
+
+.widget-contect svg {
+    color: #3C72FC;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.widget-contect p {line-height: 1.7;}
+
+.footer-widgets h3 {
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.newsletter form {
+    background: #06050C;
+    padding: 50px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 20px;
+}
+
+.newsletter button {
+    background: #3C72FC;
+    color: #fff;
+    border: none;
+    width: 140px;
+    padding: 15px 0;
+    cursor: pointer;
+    position: absolute;
+    right: 13%;
+    top: 52%;
+}
 
 
 
 /* Footer Responsive CSS  */
+
+@media only screen and (max-width: 1560px){
+    .newsletter form{
+        padding: 20px;
+    }
+
+    .newsletter button{
+        right: 10%;
+        top: 54%;
+    }
+}
+
+@media only screen and (max-width: 1360px){
+
+    .footer-widgets{
+        grid-template-columns: 1fr;
+    }
+    .newsletter button {
+        right: 8%;
+        
+    }
+}

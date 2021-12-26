@@ -7,7 +7,8 @@ const BusinessGrowth = () => {
         <>
         <div>
              
-
+         {/* Business Growth Section  */}
+         <section className="business-growth">
             {/* OverFlow Section  */}
 
             <div className="overflow-section">
@@ -24,10 +25,9 @@ const BusinessGrowth = () => {
                 </div>
             </div>
             
-            {/* Business Growth Section  */}
-             <section className="business-growth">
+           
 
-            {/* OverFlow Section  End*/}           
+            {/* OverFlow Section  End*/}            
             <div className="business-growth-wrapper">
                 <div className="business-growth-details">
                     <div className="single-business-growth">
