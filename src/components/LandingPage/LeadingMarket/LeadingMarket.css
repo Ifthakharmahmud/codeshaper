@@ -1,0 +1,155 @@
+/* Leading Market Section Css   */
+.leading-market{
+    padding: 100px 0 150px 0;
+    
+    background-position: left left;
+}
+
+.section-content{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.video-section{
+    background: url("./../../../img/team_img.png");
+    background-size:cover;
+    background-position:center;
+    position: relative;
+}
+
+.section-content .video-icon {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #3C72FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    left: -7%;
+    top: 7%;
+}
+.content-section{
+    padding-left: 20px;
+    background: url("./../../../img/leading_market.png");
+    background-size: cover;
+    background-position:left center;
+    
+}
+
+.content-section h2 {
+    font: normal normal bold 50px/60px Jost;
+    letter-spacing: -0.02px;
+    color: #0F0D1D;
+    text-transform: uppercase;
+}
+
+.content-section p {
+    font-size: 18px;
+    color: #726F84;
+}
+
+.content-section p span {
+    display: block;
+    color: #3C72FC;
+    font-size: 26px;
+    margin-top: 30px;
+}
+.inner-rect-bar.addRectAnimate {
+    background-color: #3C72FC !important;
+}
+h2.rect-progress-bar-percent {font-size: 15px !important;}
+.progress-bar-info p {
+    margin: 0;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -22px;
+}
+
+.progress-bar {
+    margin: 0;
+    padding: 0;
+    margin-top: -17px;
+}
+
+.progress-bar-info {
+    margin-top: 50px;
+}
+
+.contact-info-box {
+    margin-top: 50px;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.phone-icon {
+    width: 70px;
+    height: 70px;
+    background: #EBF1FF;
+    text-align: center;
+    line-height: 5;
+    overflow: hidden;
+}
+
+.phone-icon svg {
+    color: #3C72FC;
+    font-size: 25px;
+}
+
+.contact-info {
+    padding-left: 30px;
+    overflow: hidden !important;
+    /* margin-top: -40px; */
+}
+
+.contact-info p {
+    font-size: 15px;
+}
+
+/* Leading Market Section Responsive Css   */
+
+
+@media only screen and (max-width: 1360px){
+    .leading-market{
+        padding: 40px 0 120px 0;
+    }
+    .section-content{        
+        grid-template-columns: 1fr;
+        width: 80%;
+        
+    }
+
+    .video-section{
+        min-height: 600px;
+    }
+
+    .content-section h2{
+        font-size: 25px;
+    }
+
+    .content-section p span{
+        font-size: 20px;
+    }
+    .progress-bar-info{
+        margin-top: 0;
+    }
+    .content-section{
+        padding-left: 0;
+    }
+
+   
+}
+@media only screen and (max-width: 991px){
+    .leading-market{
+        padding: 40px 0 180px 0;
+    }
+}

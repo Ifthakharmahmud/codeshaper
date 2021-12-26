@@ -1,0 +1,130 @@
+.faq{
+    padding: 100px 0px;
+}
+
+.faq .section-title h1{
+    color: #0F0D1D;
+}
+
+.faq-content {
+    width: 70%;
+    margin: 60px  auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+
+.faq-accordion .accordion-item {
+    margin-top: 30px;
+    border: 1px solid #E6E9EF;
+}
+
+.faq-accordion .accordion-item:first-child {
+    margin-top: 0;
+}
+
+.faq .accordion {
+    border: none !important;
+}
+
+
+button.title {
+    font: normal normal bold 16px/28px Jost;
+    letter-spacing: -0.32px;
+    color: #0F0D1D;
+}
+
+button.title::first-letter {
+    color: #3C72FC;
+}
+
+.faq .panel {
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    color: #726F84;
+    padding: 0px 30px;
+}
+
+.accordion .accordion-item .title:after {
+    color: #3C72FC !important;
+}
+.faq-inner-checklist ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.faq-inner {
+    margin-top: 40px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+
+}
+
+.faq-inner-checklist ul li:before {
+    content: "✓  ";
+    color: #2D95FD;
+    font-size: 19px;
+}
+
+.faq-inner li {
+    font: normal normal normal 18px/34px Jost;
+    letter-spacing: -0.36px;
+    color: #726F84;
+    margin-top:10px
+}
+
+.faq-experience div {
+    width: 200px;
+    background: #3C72FC;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.faq-experience h2 {
+    font-size: 45px;
+    margin: 0;
+}
+
+.faq-experience p {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Faq Responsive CSS  */
+
+@media only screen and (max-width: 1560px){
+    .faq-content {
+        width: 80%;
+        grid-template-columns: 1.2fr 0.8fr;
+    }
+}
+
+@media only screen and (max-width: 1360px){
+    .faq-content {
+        width: 95%;
+        grid-template-columns: 1fr;
+    }
+    .faq-accordion {
+        width: 95%;
+    }
+    
+    
+    .faq-right-content img {
+        width: 95%;
+    }
+
+    .faq-inner li{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 600px){ 
+
+    .faq-inner li{
+        font-size: 8px;
+    }
+}

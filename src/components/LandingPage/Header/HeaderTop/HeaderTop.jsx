@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './HeaderTop.css';
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -6,8 +6,13 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { HiOutlineSearch } from "react-icons/hi";
+import { AiOutlineMenu } from "react-icons/ai";
+import { FaAngleDown } from "react-icons/fa";
 
 const HeaderTop = () => {
+
+    const [showLinks, setShowLinks] = useState(false)
+
     return (
         <>
             {/* Header Top  */}
@@ -20,9 +25,9 @@ const HeaderTop = () => {
                 {/* Main Menu  */}
                 <div className="main-menu">
                     <nav>
-                        <ul>
+                        <ul  id={showLinks  ? "hidden": ""  }  >
                             <li><a href="#">HOME</a></li>
-                            <li><a href="#">SERVICES</a>
+                            <li><a href="#">SERVICES  <FaAngleDown /> </a>
                                 <ul>
                                     <li><a href="#"> Demo 1 </a></li>
                                     <li><a href="#"> Demo 2</a></li>
@@ -35,6 +40,7 @@ const HeaderTop = () => {
                             
                         </ul>
                     </nav>
+                    <button onClick={ () => setShowLinks(!showLinks)  }  class="res-nav">MENU <AiOutlineMenu /> </button>
                 </div>
 
                 {/* Social Icons & Search Button */}

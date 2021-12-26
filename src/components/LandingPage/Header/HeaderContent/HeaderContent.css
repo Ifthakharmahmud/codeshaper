@@ -68,3 +68,9 @@ a.custom-btn {
     }
 
 }
+@media only screen and (max-width: 992px){
+    a.custom-btn{
+        font-size: 14px;
+    }
+}
+

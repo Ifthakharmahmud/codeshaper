@@ -13,6 +13,11 @@
     padding: 30px 0;
     box-sizing: border-box;
 }
+.res-nav{
+    display: none;
+}
+
+
 .main-menu nav ul {
     padding: 0;
     margin: 0;
@@ -45,6 +50,8 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     transition: 0.5s;
+    background:#333;
+    padding: 0 10px;
 }
 
 .main-menu ul li ul a{
@@ -185,6 +192,38 @@
 
     .header-contact-info{
         text-align: center;
+    }
+
+    .res-nav{
+        display: block;
+    }
+    button.res-nav {
+        color: #fff;
+        background: #3C72FC;
+        border: none;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    
+    button.res-nav svg {
+        margin-left: 8px;
+    }
+
+    .main-menu ul{
+        display: none;
+    }
+    #hidden{
+        display:block;
+        position: absolute;
+        top: 130px;
+        left: 50%;
+        background-color: #333;
+        padding: 20px 100px;
+        transform: translate(-50%)
+    }
+    #hidden li{
+        display:block;
+        margin-top: 10px;
     }
 
 

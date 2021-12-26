@@ -1,7 +1,9 @@
 /* experience css   */
 .experience{
     padding: 60px 0;
-    background: #0F0D1D;
+    background: url("./../../../img/experience_bg.png");
+    background-size: cover;
+    background-position: center center;
 }
 
 .section-title h1 {
@@ -64,4 +66,32 @@
     align-content: center;
     justify-content: space-between;
     align-items: center;
+}
+
+
+/* experience section responsive css   */
+
+@media only screen and (max-width: 1360px){
+    .section-title h1{
+        font: normal normal bold 30px/60px Jost;
+    }
+    .experience-boxs{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .experience-boxs{
+        grid-template-columns: 1fr;
+    }
+
+    .box-bottom-content svg {
+        font-size: 50px;
+    }
+    
+    
+    .section-title {
+        width: 98%;
+        margin: auto;
+    }
 }
