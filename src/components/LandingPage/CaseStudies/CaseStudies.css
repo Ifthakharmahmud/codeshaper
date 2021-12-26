@@ -4,6 +4,7 @@
     padding: 200px 10% 100px 10% ;
     position: relative;
 }
+/* 4.1 - Overflow Section */
 .professional-row{
     position: absolute;
     top: -6%;
@@ -25,6 +26,7 @@
     background-color: #EBF1FF;
     padding: 18px 21px 17px 22px;
 }
+/* 4.2 - Section Title */
 .text{
     padding-left: 20px;
 }
@@ -55,6 +57,7 @@
     text-align: center;
 
 }
+/* 4.3 - Case Studies Images */
 .studies-images{
     display: flex;
     flex-direction: row;
@@ -113,6 +116,8 @@
     padding: 15% 18%;
     transition: all 1s ease;
 }
+
+/* 4.4 - Case Studies Responsive Css */
 @media only screen and (max-width: 1200px){
     .details p{
         font-size:12px;
@@ -136,7 +141,7 @@
     }
     .studies .section-title {
         margin-top: 0px;
-    }
+    } 
 }
 @media only screen and (max-width: 667px){
     .studies-images{

@@ -6,14 +6,14 @@ import 'react-light-accordion/demo/css/index.css';
 const Faq = () => {
     return (
         <>
-            {/* Faq Section  */}
+            {/* 6.1 - Faq Section  */}
             <div className="faq">
                  <div className="section-title">
                     <h1>QUESTION ANSWERS</h1>
                     <p>We help our clients renew their business</p>
                 </div>
                 <div className="faq-content">
-                    {/* Accordion  */}
+                    {/* 6.2 - Accordion  */}
                     <div className="faq-accordion">
                      <div>
                         
@@ -46,7 +46,7 @@ const Faq = () => {
                                 <br />
 
 
-                            </AccordionItem>
+                            </AccordionItem> 
 
                             <AccordionItem title="4. HOW TO IMPROVE YOUR BUSINESS?">
                                 <br />
@@ -83,7 +83,7 @@ const Faq = () => {
                     </div>
                     
                     </div>
-
+                    {/* 6.3 - FAQ Right Side Content */}
                     <div className="faq-right-content">
                         <img src="img/faq_team.png" alt="" />
                         <div className="faq-inner">

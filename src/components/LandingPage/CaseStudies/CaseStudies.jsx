@@ -8,7 +8,7 @@ const CaseStudies = () => {
     return ( 
         <>
             <div className='studies'>
-
+            {/* 4.1 - Overflow Section */}
                 <div className="professional-row">
                     <div className="professional-content">
                         <div className="number">
@@ -30,10 +30,14 @@ const CaseStudies = () => {
                     </div>
                 </div>
 
+                {/* 4.2 - Section Title */}
+
                 <div className="section-title">
                     <h1>NEW CASE STUDIES</h1>
                     <p>We help our clients renew their business</p>
                 </div>
+
+                {/* 4.3 - Case Studies Images  */}
 
                 <div className="studies-images">
 

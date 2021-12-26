@@ -1,4 +1,4 @@
-/* Leading Market Section Css   */
+/* Leading Merket Section   */
 .leading-market{
     padding: 100px 0 150px 0;
     
@@ -18,7 +18,7 @@
     background-size:cover;
     background-position:center;
     position: relative;
-}
+} 
 
 .section-content .video-icon {
     position: absolute;
@@ -71,6 +71,8 @@ h2.rect-progress-bar-percent {font-size: 15px !important;}
     margin-top: -22px;
 }
 
+
+/* 2.2 - Progress Bar */
 .progress-bar {
     margin: 0;
     padding: 0;
@@ -115,7 +117,7 @@ h2.rect-progress-bar-percent {font-size: 15px !important;}
     font-size: 15px;
 }
 
-/* Leading Market Section Responsive Css   */
+/* 3.4 - Leading Market Section Responsive Css   */
 
 
 @media only screen and (max-width: 1360px){

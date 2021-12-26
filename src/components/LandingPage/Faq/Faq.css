@@ -1,3 +1,4 @@
+/* 6.1 - Faq Section */
 .faq{
     padding: 100px 0px;
 }
@@ -14,7 +15,7 @@
     grid-gap: 30px;
 }
 
-
+/* 6.2 - Accordion */
 .faq-accordion .accordion-item {
     margin-top: 30px;
     border: 1px solid #E6E9EF;
@@ -54,7 +55,7 @@ button.title::first-letter {
     padding: 0;
     list-style: none;
 }
-
+/* 6.3 - FAQ Right Side Content */
 .faq-inner {
     margin-top: 40px;
     display:grid;
@@ -94,7 +95,7 @@ button.title::first-letter {
     margin: 0;
 }
 
-/* Faq Responsive CSS  */
+/* 6.4 - FAQ Responsive CSS */
 
 @media only screen and (max-width: 1560px){
     .faq-content {

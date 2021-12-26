@@ -1,4 +1,5 @@
-/* experience css   */
+/* 2.1 - Real World Experience  */
+
 .experience{
     padding: 60px 0;
     background: url("./../../../img/experience_bg.png");
@@ -12,7 +13,7 @@
     color: #fff;
     margin-bottom: 0;
 }
-
+ 
 .section-title p {
     font: normal normal bold 18px/26px Jost;
     letter-spacing: 0.14px;
@@ -25,6 +26,8 @@
     margin: 60px auto 80px auto;
 }
 
+
+/* 2.2 - Experience Boxes */
 .experience-boxs {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -69,7 +72,7 @@
 }
 
 
-/* experience section responsive css   */
+/* 2.4 - experience section responsive css   */
 
 @media only screen and (max-width: 1360px){
     .section-title h1{

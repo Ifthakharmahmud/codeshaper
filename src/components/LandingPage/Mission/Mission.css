@@ -1,3 +1,4 @@
+/* 5.1 - Mission Section  */
 .mission{
     background-image: url('./../../../img/our-mission-bg.png');
     background-size: cover;
@@ -10,7 +11,7 @@
     margin: 0 auto;
     font: normal normal bold 60px/70px Jost;
     color: white;
-}
+} 
 
 
 .mission .mission-btn {
@@ -23,7 +24,7 @@
     margin-top: 30px;
   
 }
-
+/* 5.2 - Mission Content */
 .mission-content:after {content: '';width: 100%;height: 100%;position: absolute;background: #000;left: 0;top: 0;opacity: 0.9;z-index: -1;}
 
 .mission-content {
@@ -38,6 +39,8 @@
     margin: auto;
     padding-top: 7%;
 }
+
+/* 5.3 - Mission Responsive Css  */
 
 @media only screen and (max-width: 1360px){
     .mission-content-inner {

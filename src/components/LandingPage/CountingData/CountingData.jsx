@@ -5,26 +5,7 @@ const CountingData = () => {
     return (
         <>
 
-            <div className="professional-row">
-                    <div className="professional-content">
-                        <div className="number">
-                            <span>01</span>
-                        </div>
-                        <div className="text">
-                            <h5>GET PROFESSIONAL ADVICE</h5>
-                            <span>There are many variations of available but the majority have suffered alteration.</span>
-                        </div>
-                    </div>
-                    <div className="professional-content">
-                        <div className="number">
-                            <span>02</span>
-                        </div>
-                        <div className="text">
-                            <h5>TRUSTED & PROFESSIONAL</h5>
-                            <span>There are many variations of available but the majority have suffered alteration.</span>
-                        </div>
-                    </div>
-                </div>
+            
             {/* CountingData Section  */}
             <section className="counting-data">
                 <div className="counting-data-wrapper">

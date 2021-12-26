@@ -15,14 +15,15 @@ const HeaderTop = () => {
 
     return (
         <>
-            {/* Header Top  */}
+            { /* ============= 1.Header =============== */ }
+            {/* 1.1 - Header Top   */}
             <div className="header-top">
                 {/* Logo  */}
                 <div className="logo">
                     <a href="#"> <img src="./logo.png" alt="Logo" /> </a>
                 </div>
 
-                {/* Main Menu  */}
+                {/* 1.2 - Main Menu */}
                 <div className="main-menu">
                     <nav>
                         <ul  id={showLinks  ? "hidden": ""  }  >
@@ -43,7 +44,7 @@ const HeaderTop = () => {
                     <button onClick={ () => setShowLinks(!showLinks)  }  className="res-nav">MENU <AiOutlineMenu /> </button>
                 </div>
 
-                {/* Social Icons & Search Button */}
+                {/* 1.3 - Social Icons & Search Button */}
                 <div className="social-icons">
                     <div className='icon-search-container'>
                         <div className="icons">
@@ -62,7 +63,7 @@ const HeaderTop = () => {
 
                 </div>
 
-                {/* Header Contact Info  */}
+                {/* 1.4 - Header Contact Info  */}
 
                 <div className="header-contact-info">
                     <p>Need help?</p>

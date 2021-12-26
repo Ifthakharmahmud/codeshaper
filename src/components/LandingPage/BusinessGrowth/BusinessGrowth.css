@@ -1,0 +1,193 @@
+/* business growth  CSS  */
+
+.business-growth{
+    position: relative;
+}
+
+
+.business-growth-wrapper{
+    position: absolute;
+    margin-top:8%;
+    /* padding-bottom: 60px; */
+}
+
+.overflow-section{
+    width: 80%;
+    margin: auto;
+}
+
+.overflow-section-wrapper {
+    position: absolute;
+    
+}
+
+.single-overflow-section {
+    background: #F2F4F8;
+    padding: 60px;
+    width: 100%;
+    box-shadow: 0px 1px 10px #00000029;
+}
+
+.overflow-section-wrapper {
+    display: grid;
+    width: 80%;
+    position: absolute;
+    margin-top: -5%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.single-overflow-section h2 {
+    font: normal normal bold 20px/22px Jost;
+    letter-spacing: -0.01px;
+    color: #0F0D1D;
+    text-transform: uppercase;
+}
+
+.single-overflow-section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.single-overflow-section:first-child h2 {
+    color: #3C72FC;
+}
+
+.single-overflow-section:first-child {
+    background: #fff;
+}
+.business-growth-details {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.business-growth-1 {
+    display: grid;
+    grid-template-columns: 0.4fr 1.6fr;
+    justify-items: stretch;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.business-growth-1-icon {
+    width: 70px;
+    height: 70px;
+    background: #EBF1FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3C72FC;
+    font-size: 29px;
+}
+
+.business-growth-1-content h4 {
+    font: normal normal bold 20px/26px Jost;
+    margin-top: 0px;
+    color: #0F0D1D;
+    margin-bottom: -3px;
+}
+
+.business-growth-1-content p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #726F84;
+    /* margin: 0; */
+}
+
+.business-growth-1:first-child {
+    margin-top: 0;
+}
+.single-business-growth:first-child {
+    border-right: 1px solid #E6E9EF;
+    padding-right: 20px;
+}
+.single-business-growth ul{
+    list-style: none;
+}
+.single-business-growth li:before {
+    content: "--- ";
+    color: #2D95FD;
+    font-size: 19px;
+}
+
+.single-business-growth:nth-child(2) p {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #726F84;
+    margin-bottom: 55px;
+    line-height:1.8;
+    margin-top: 0;
+}
+
+.single-business-growth:nth-child(2) li {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #726F84;
+}
+.single-business-growth-last-item{
+    background-image: url('./../../../img/financial-advice-img-1.png');
+    min-height: 435px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* business growth responsive CSS  */
+
+@media only screen and (max-width: 1560px){
+    .business-growth-wrapper{
+        margin-top:10%;
+    }
+}
+
+@media only screen and (max-width: 1360px){
+    .overflow-section-wrapper {
+        grid-template-columns: 1fr ;
+    }
+    .single-overflow-section {
+        padding: 10px 0;
+    }
+    .overflow-section-wrapper{
+        margin-top: 0;
+        width: 100%;
+    }
+    .overflow-section{
+        width: 100%;
+    }
+    .business-growth-details{
+        grid-template-columns: 1fr;
+    }
+    .business-growth-wrapper {
+        margin-top: 22%;
+    }
+    .single-business-growth {
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        border-bottom: 2px solid #ddd;
+    }
+
+    .single-business-growth:first-child{
+        border-right: none;
+    }
+    
+}
+
+@media only screen and (max-width: 1100px){
+    .business-growth-wrapper {
+        margin-top: 30%;
+    }
+}
+@media only screen and (max-width: 840px){
+    .business-growth-wrapper {
+        margin-top: 40%;
+    }
+}
+@media only screen and (max-width: 650px){
+    .business-growth-wrapper {
+        margin-top: 50%;
+    }
+}

@@ -9,7 +9,7 @@ import { FiPhoneCall } from "react-icons/fi";
 const LeadingMarket = () => {
     return (
         <>
-            {/* Leading Merket Section  */}
+            {/* 3.1 - Leading Merket Section */}
             <section className="leading-market">
                 <div className="section-wrapper">
                     <div className="section-content">
@@ -25,7 +25,7 @@ const LeadingMarket = () => {
 
                             <p>Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lonm andhn. <span> We have 35+ years of experience. We offer marketing and consulting services </span></p>
 
-                            {/* Progress Bar  */}
+                            {/* 3.2 - Progress Bar  */}
                             <div className="progress-bar-info">
                             <ProgressBar
                                 width="100%"
@@ -55,7 +55,7 @@ const LeadingMarket = () => {
                             <p>ADVICES</p>
                             </div>
                             
-                            {/* Contact Box   */}
+                            {/* 3.3 - Contact Box  */}
                             <div className="contact-info-box">
                                 <div className="phone-icon">
                                     <FiPhoneCall />

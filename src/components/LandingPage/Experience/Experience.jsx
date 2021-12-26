@@ -5,8 +5,8 @@ import LogoCarousel from './LogoCarousel/LogoCarousel';
 
 const Experience = () => {
     return (
-        <>
-        {/* Real World Experience   */}
+        <> 
+        {/* 2.1 - Real World Experience    */}
             <div className="experience">
                 <div className="section-title">
                     <h1>REAL-WORLD EXPERIENCE</h1>
@@ -14,6 +14,7 @@ const Experience = () => {
                 </div>
 
                 <div className="section-container">
+                    {/* 2.2 - Experience Boxes  */}
                     <div className="experience-boxs">
                         <div className="single-exp-box">
                             <h4>WEALTH MANAGEMENT</h4>
@@ -42,7 +43,7 @@ const Experience = () => {
                     </div>
 
 
-                    {/* Partners Carousel   */}
+                    {/* 2.3 - Partners Carousel  */}
 
                     <LogoCarousel></LogoCarousel>
 
